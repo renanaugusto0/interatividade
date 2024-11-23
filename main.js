@@ -21,5 +21,5 @@ function alternarLampada() {
         statusTexto.style.fontsize = "30px";
     }
 }
-
-alternarLampada();
+// Adicionar um evento ao meu botão toda vez que o usuário der um click
+botao.addEventListener("click", alternarLampada);
